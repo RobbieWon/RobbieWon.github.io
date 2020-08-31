@@ -9,18 +9,45 @@
 	<header>
 		<h1>I'm Robbie<br>
 		I'm Web Design<br>
-		Welcome to my world</h1>
+		" Welcome to my world "</h1>
+		
+		<div class="icon">
 		<i class="fa fa-instagram" aria-hidden="true"></i>
 		<i class="fa fa-facebook" aria-hidden="true"></i>
 		<i class="fa fa-twitter" aria-hidden="true"></i>
 		<i class="fa fa-behance" aria-hidden="true"></i>
 		<i class="fa fa-google-plus" aria-hidden="true"></i><br>
 		<i class="fa fa-arrow-down" aria-hidden="true"></i>
+		</div>
 	</header>
+	
+	<button onclick="topFunction()" id="movetop" title="Go to top">
+		<span class="fa fa-arrow-up" aria-hidden="true"></span>
+	</button>
+	<script>
+				window.onscroll = function () {
+					scrollFunction()
+				};
+
+				function scrollFunction() {
+					if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+						document.getElementById("movetop").style.display = "block";
+					} else {
+						document.getElementById("movetop").style.display = "none";
+					}
+				}
+
+								function topFunction() {
+					document.body.scrollTop = 0;
+					document.documentElement.scrollTop = 0;
+				}
+			</script>
+
+	
 <body>
 	<section>
 			<div class="home">
-				<img src="img/e65755e73d8085e30aedfa21fde07f1b.jpg">
+				<img src="img/c58e1efdd4a04ba8631e9ada3e8bfed9.jpg">
 				<p>Creativity is a very dense word. It does not only equate to the ability to create something, you should ask yourself if what you are creating is meaningful, useful and purposeful. If yes, then you are creative.
 				If what you meant by “not being creative” as someone who is not very keen at aesthetic design, then yes you can still be good at web development. I know very good web developers who are not too keen with visual design, but are very good at formulating the best possible solutions to a problem. Most of them are backend developers. If you will be on a large team, your team may already have designers who will do the mockups for you that you can convert to a working prototype.</p>
 			</div>
@@ -78,7 +105,7 @@
 			</div>
 </section>
 	
-<Section>
+<section>
 	<div class="title">
 		<h2>GET IN TOUCH</h2>
 		<p>Out believe has request not how comfort evident. Up delight cousins we feeling
@@ -100,7 +127,25 @@ minutes. Genius has looked end piqued spring.</p>
 			<p>Message<br></p>
 			<textarea></textarea>
 	</div>	
-</Section>
+	
+	<div class="contact2">
+			<p>SENT A MESSAGE</p>
+	</div>	
+</section>
+
+<footer>
+	<ul>
+		<li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+		<li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+		<li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+		<li><i class="fa fa-behance" aria-hidden="true"></i></li>
+		<li><i class="fa fa-google-plus" aria-hidden="true"></i></li>
+	</ul>
+	<br>
+	<p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> Robbie Won</p>
+	
+</footer>
+
 	
 </body>
 </html>

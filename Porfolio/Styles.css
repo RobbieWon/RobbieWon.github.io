@@ -1,3 +1,27 @@
 @charset "utf-8";
 /* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-image:url(img/67f299fc53bbfae7fd5074fa955b4c01.jpg);
+	background-size: cover;
+	color: white;
+	text-align: center;
+	height: 500px;
+}
 
+#movetop{
+	display: none;
+	position: fixed;
+	bottom: 10px;
+	right:10px;
+	z-index:99;
+	height:45px;
+	width: 45px;
+	font-size:12px;
+	background-color: gray;
+	color:white;
+	border-radius: 50%;
+}
