@@ -31,10 +31,16 @@
 	}
 	
 	#intro {
-		width: 200px;
+		width: 300px;
 	}
 	
 	.intro2{
+		width: 300px;
+	}
+	.a1{
+		width: 300px;
+	}
+	.a2{
 		width: 300px;
 	}
 	}
